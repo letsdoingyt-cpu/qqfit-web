@@ -1,0 +1,6648 @@
+{
+ "schemaVersion": 2,
+ "plans": [
+  {
+   "id": "type01",
+   "number": 1,
+   "slug": "start_gym",
+   "title": "Старт в зале",
+   "subtitle": "Полноценный вход в тренажёрный зал: базовые движения, техника и привыкание к нагрузке. 3 дня в неделю по кругу.",
+   "howToChoose": "Три равноценные тренировки на всё тело — чередуй их по кругу, например понедельник, среда, пятница. Начни с первой и двигайся по порядку.",
+   "variants": [
+    {
+     "title": "Всё тело — день 1",
+     "equipment": "штанга, гантели, тренажёры, блок, турник",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "011",
+         "name": "Жим в грудном тренажёре",
+         "primaryMuscle": "Грудь",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "074",
+         "name": "Тяга верхнего блока",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "039",
+         "name": "Жим в тренажёре для плеч",
+         "primaryMuscle": "Плечи",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 2,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "078",
+         "name": "Тяга нижнего блока сидя",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "032",
+         "name": "Жим гантелей сидя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "101",
+         "name": "Попеременный подъём гантелей на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "40 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 65,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "001",
+         "name": "Жим штанги лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "059",
+         "name": "Подтягивания",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "030",
+         "name": "Жим штанги стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "035",
+         "name": "Махи гантелями в стороны",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "099",
+         "name": "Подъём штанги на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "45 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Всё тело — день 2",
+     "equipment": "штанга, гантели, тренажёры, турник, брусья",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "206",
+         "name": "Приседания в тренажёре Смита",
+         "primaryMuscle": "Бёдра",
+         "equipment": "машина Смита",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "080",
+         "name": "Рычажная тяга в тренажёре",
+         "primaryMuscle": "Спина",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "023",
+         "name": "Жим лёжа в тренажёре Смита",
+         "primaryMuscle": "Грудь",
+         "equipment": "машина Смита",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "035",
+         "name": "Махи гантелями в стороны",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 2,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "159",
+         "name": "Скручивания в тренажёре",
+         "primaryMuscle": "Пресс",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "202",
+         "name": "Румынская тяга",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "005",
+         "name": "Жим гантелей на наклонной скамье",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "033",
+         "name": "Жим гантелей стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "102",
+         "name": "Молотковые сгибания",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "159",
+         "name": "Скручивания в тренажёре",
+         "primaryMuscle": "Пресс",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 65,
+       "exercises": [
+        {
+         "exerciseId": "184",
+         "name": "Становая тяга",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "002",
+         "name": "Жим штанги на наклонной скамье",
+         "primaryMuscle": "Грудь",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "068",
+         "name": "Тяга штанги в наклоне",
+         "primaryMuscle": "Спина",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "032",
+         "name": "Жим гантелей сидя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "128",
+         "name": "Отжимания на брусьях",
+         "primaryMuscle": "Трицепс",
+         "equipment": "брусья",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "060",
+         "name": "Подтягивания обратным хватом",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "090",
+         "name": "Шраги с гантелями",
+         "primaryMuscle": "Трапеции",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "159",
+         "name": "Скручивания в тренажёре",
+         "primaryMuscle": "Пресс",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "20",
+         "restSec": 60
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Всё тело — день 3",
+     "equipment": "штанга, гантели, тренажёры, блок, турник",
+     "levels": {
+      "novice": {
+       "durationMin": 30,
+       "exercises": [
+        {
+         "exerciseId": "207",
+         "name": "Гоблет-приседания",
+         "primaryMuscle": "Бёдра",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "011",
+         "name": "Жим в грудном тренажёре",
+         "primaryMuscle": "Грудь",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "078",
+         "name": "Тяга нижнего блока сидя",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "035",
+         "name": "Махи гантелями в стороны",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 2,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "152",
+         "name": "Боковая планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "20 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "214",
+         "name": "Выпады вперёд",
+         "primaryMuscle": "Бёдра",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "074",
+         "name": "Тяга верхнего блока",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "032",
+         "name": "Жим гантелей сидя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "123",
+         "name": "Разгибания в блоке с канатом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "152",
+         "name": "Боковая планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 60,
+       "exercises": [
+        {
+         "exerciseId": "188",
+         "name": "Болгарские сплит-приседания",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "005",
+         "name": "Жим гантелей на наклонной скамье",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "062",
+         "name": "Подтягивания нейтральным хватом",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "033",
+         "name": "Жим гантелей стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "100",
+         "name": "Подъём EZ-грифа на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "EZ-гриф",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "123",
+         "name": "Разгибания в блоке с канатом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "152",
+         "name": "Боковая планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "40 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "type02",
+   "number": 2,
+   "slug": "lower_focus",
+   "title": "Акцент на низ тела",
+   "subtitle": "Приоритет ног и ягодиц: три вариации дня ног с разным акцентом.",
+   "howToChoose": "Выбери, что хочется подтянуть: переднюю поверхность бёдер, ягодицы с задней поверхностью — или возьми общий комплекс на ноги целиком.",
+   "variants": [
+    {
+     "title": "Акцент квадрицепс",
+     "equipment": "штанга, гантели, тренажёры",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "219",
+         "name": "Разгибания ног в тренажёре",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "207",
+         "name": "Гоблет-приседания",
+         "primaryMuscle": "Бёдра",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "241",
+         "name": "Подъёмы на носки в тренажёре стоя",
+         "primaryMuscle": "Икры",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "213",
+         "name": "Сплит-приседания",
+         "primaryMuscle": "Бёдра",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "219",
+         "name": "Разгибания ног в тренажёре",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "242",
+         "name": "Подъёмы на носки сидя",
+         "primaryMuscle": "Икры",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 60,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 5,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "218",
+         "name": "Гакк-приседания",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "188",
+         "name": "Болгарские сплит-приседания",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "219",
+         "name": "Разгибания ног в тренажёре",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "241",
+         "name": "Подъёмы на носки в тренажёре стоя",
+         "primaryMuscle": "Икры",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "45 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Акцент ягодицы и задняя поверхность",
+     "equipment": "штанга, гантели, гиря, тренажёры, резинки",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "181",
+         "name": "Ягодичный мост лёжа",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "192",
+         "name": "Отведение бедра в тренажёре",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "221",
+         "name": "Сгибания ног сидя",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "198",
+         "name": "Приседания сумо с гантелью",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "200",
+         "name": "Боковая ходьба с резинкой",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15/сторону",
+         "restSec": 60
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "180",
+         "name": "Ягодичный мост со штангой",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "202",
+         "name": "Румынская тяга",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "187",
+         "name": "Выпады назад",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "221",
+         "name": "Сгибания ног сидя",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "192",
+         "name": "Отведение бедра в тренажёре",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "200",
+         "name": "Боковая ходьба с резинкой",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15/сторону",
+         "restSec": 60
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 55,
+       "exercises": [
+        {
+         "exerciseId": "180",
+         "name": "Ягодичный мост со штангой",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "202",
+         "name": "Румынская тяга",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "188",
+         "name": "Болгарские сплит-приседания",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "189",
+         "name": "Реверанс-выпады",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "221",
+         "name": "Сгибания ног сидя",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "192",
+         "name": "Отведение бедра в тренажёре",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "20",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "186",
+         "name": "Махи гирей",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гиря",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "152",
+         "name": "Боковая планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "40 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Ноги — комплекс",
+     "equipment": "штанга, гантели, тренажёры, тумба",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "206",
+         "name": "Приседания в тренажёре Смита",
+         "primaryMuscle": "Бёдра",
+         "equipment": "машина Смита",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "190",
+         "name": "Зашагивания на тумбу",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "тумба",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "241",
+         "name": "Подъёмы на носки в тренажёре стоя",
+         "primaryMuscle": "Икры",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "202",
+         "name": "Румынская тяга",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "187",
+         "name": "Выпады назад",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "219",
+         "name": "Разгибания ног в тренажёре",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "242",
+         "name": "Подъёмы на носки сидя",
+         "primaryMuscle": "Икры",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "20",
+         "restSec": 60
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 55,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "184",
+         "name": "Становая тяга",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "188",
+         "name": "Болгарские сплит-приседания",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "219",
+         "name": "Разгибания ног в тренажёре",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "241",
+         "name": "Подъёмы на носки в тренажёре стоя",
+         "primaryMuscle": "Икры",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "45 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "type03",
+   "number": 3,
+   "slug": "home",
+   "title": "Домашние тренировки",
+   "subtitle": "Тренировки дома под доступный инвентарь: без ничего, с резинками или с гантелями.",
+   "howToChoose": "Отталкивайся от того, что есть под рукой: совсем без инвентаря, с резинками или с парой гантелей.",
+   "variants": [
+    {
+     "title": "Без инвентаря",
+     "equipment": "без инвентаря",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "210",
+         "name": "Приседания без веса",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "017",
+         "name": "Отжимания с упором на возвышение",
+         "primaryMuscle": "Грудь",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "181",
+         "name": "Ягодичный мост лёжа",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "087",
+         "name": "«Супермен»",
+         "primaryMuscle": "Спина",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "210",
+         "name": "Приседания без веса",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "20",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "013",
+         "name": "Отжимания",
+         "primaryMuscle": "Грудь",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "226",
+         "name": "«Стульчик» у стены",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "40 сек",
+         "restSec": 45
+        },
+        {
+         "exerciseId": "182",
+         "name": "Ягодичный мост на одной ноге",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "045",
+         "name": "Отжимания «домиком»",
+         "primaryMuscle": "Плечи",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "45 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 55,
+       "exercises": [
+        {
+         "exerciseId": "212",
+         "name": "«Пистолетик»",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8/нога",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "016",
+         "name": "Отжимания с ногами на возвышении",
+         "primaryMuscle": "Грудь",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "216",
+         "name": "Прыжковые выпады",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "020",
+         "name": "Отжимания «лучник»",
+         "primaryMuscle": "Грудь",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8/сторону",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "045",
+         "name": "Отжимания «домиком»",
+         "primaryMuscle": "Плечи",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "182",
+         "name": "Ягодичный мост на одной ноге",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15/нога",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "087",
+         "name": "«Супермен»",
+         "primaryMuscle": "Спина",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "60 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "С резинками",
+     "equipment": "резинки",
+     "levels": {
+      "novice": {
+       "durationMin": 30,
+       "exercises": [
+        {
+         "exerciseId": "210",
+         "name": "Приседания без веса",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "083",
+         "name": "Тяга в наклоне с резиновой лентой",
+         "primaryMuscle": "Спина",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "050",
+         "name": "Махи в стороны с резиновой лентой",
+         "primaryMuscle": "Плечи",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "200",
+         "name": "Боковая ходьба с резинкой",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15/сторону",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "210",
+         "name": "Приседания без веса",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "20",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "028",
+         "name": "Отжимания с резиновой лентой",
+         "primaryMuscle": "Грудь",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "083",
+         "name": "Тяга в наклоне с резиновой лентой",
+         "primaryMuscle": "Спина",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "050",
+         "name": "Махи в стороны с резиновой лентой",
+         "primaryMuscle": "Плечи",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "117",
+         "name": "Сгибания с резиновой лентой",
+         "primaryMuscle": "Бицепс",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "45 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "216",
+         "name": "Прыжковые выпады",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "028",
+         "name": "Отжимания с резиновой лентой",
+         "primaryMuscle": "Грудь",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "083",
+         "name": "Тяга в наклоне с резиновой лентой",
+         "primaryMuscle": "Спина",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "050",
+         "name": "Махи в стороны с резиновой лентой",
+         "primaryMuscle": "Плечи",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "20",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "117",
+         "name": "Сгибания с резиновой лентой",
+         "primaryMuscle": "Бицепс",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "137",
+         "name": "Разгибания с резиновой лентой",
+         "primaryMuscle": "Трицепс",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "60 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "С гантелями",
+     "equipment": "гантели",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "209",
+         "name": "Приседания с гантелями",
+         "primaryMuscle": "Бёдра",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "033",
+         "name": "Жим гантелей стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "207",
+         "name": "Гоблет-приседания",
+         "primaryMuscle": "Бёдра",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "187",
+         "name": "Выпады назад",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "032",
+         "name": "Жим гантелей сидя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "101",
+         "name": "Попеременный подъём гантелей на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 60,
+       "exercises": [
+        {
+         "exerciseId": "188",
+         "name": "Болгарские сплит-приседания",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "10/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "033",
+         "name": "Жим гантелей стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "084",
+         "name": "Тяга гантели в планке",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "102",
+         "name": "Молотковые сгибания",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "121",
+         "name": "Французский жим сидя с гантелью",
+         "primaryMuscle": "Трицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "152",
+         "name": "Боковая планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "40 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "type04",
+   "number": 4,
+   "slug": "express",
+   "title": "Экспресс 30–45 минут",
+   "subtitle": "Короткие эффективные тренировки на базовых движениях с минимумом отдыха.",
+   "howToChoose": "Мало времени? Возьми «Всё тело». А если получается тренироваться чаще — чередуй верх и низ.",
+   "variants": [
+    {
+     "title": "Всё тело",
+     "equipment": "штанга, гантели, тренажёры, блок, турник",
+     "levels": {
+      "novice": {
+       "durationMin": 30,
+       "exercises": [
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "011",
+         "name": "Жим в грудном тренажёре",
+         "primaryMuscle": "Грудь",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "074",
+         "name": "Тяга верхнего блока",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "032",
+         "name": "Жим гантелей сидя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "40 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 50,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "001",
+         "name": "Жим штанги лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "059",
+         "name": "Подтягивания",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "030",
+         "name": "Жим штанги стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "187",
+         "name": "Выпады назад",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "45 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Верх тела",
+     "equipment": "штанга, гантели, тренажёры, блок, турник",
+     "levels": {
+      "novice": {
+       "durationMin": 30,
+       "exercises": [
+        {
+         "exerciseId": "011",
+         "name": "Жим в грудном тренажёре",
+         "primaryMuscle": "Грудь",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "074",
+         "name": "Тяга верхнего блока",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "039",
+         "name": "Жим в тренажёре для плеч",
+         "primaryMuscle": "Плечи",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "123",
+         "name": "Разгибания в блоке с канатом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 2,
+         "reps": "15",
+         "restSec": 60
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "032",
+         "name": "Жим гантелей сидя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "101",
+         "name": "Попеременный подъём гантелей на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "123",
+         "name": "Разгибания в блоке с канатом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 50,
+       "exercises": [
+        {
+         "exerciseId": "001",
+         "name": "Жим штанги лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "068",
+         "name": "Тяга штанги в наклоне",
+         "primaryMuscle": "Спина",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "030",
+         "name": "Жим штанги стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "059",
+         "name": "Подтягивания",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "035",
+         "name": "Махи гантелями в стороны",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "099",
+         "name": "Подъём штанги на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Низ тела",
+     "equipment": "штанга, гантели, тренажёры",
+     "levels": {
+      "novice": {
+       "durationMin": 25,
+       "exercises": [
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "219",
+         "name": "Разгибания ног в тренажёре",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "241",
+         "name": "Подъёмы на носки в тренажёре стоя",
+         "primaryMuscle": "Икры",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "20",
+         "restSec": 60
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "202",
+         "name": "Румынская тяга",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "187",
+         "name": "Выпады назад",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "242",
+         "name": "Подъёмы на носки сидя",
+         "primaryMuscle": "Икры",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "20",
+         "restSec": 60
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "184",
+         "name": "Становая тяга",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "188",
+         "name": "Болгарские сплит-приседания",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "241",
+         "name": "Подъёмы на носки в тренажёре стоя",
+         "primaryMuscle": "Икры",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "15",
+         "restSec": 60
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "type05",
+   "number": 5,
+   "slug": "strength",
+   "title": "Силовая классика",
+   "subtitle": "Базовая силовая работа со штангой в малом числе повторений. Присед, жим, становая.",
+   "howToChoose": "Классическая силовая неделя: три дня — три главных движения. Чередуй их по порядку, между тренировками — день отдыха.",
+   "variants": [
+    {
+     "title": "День приседа",
+     "equipment": "штанга, тренажёры",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "086",
+         "name": "Гиперэкстензия",
+         "primaryMuscle": "Спина",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "202",
+         "name": "Румынская тяга",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "240",
+         "name": "Подъёмы на носки стоя со штангой",
+         "primaryMuscle": "Икры",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "45 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 65,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 5,
+         "reps": "5",
+         "restSec": 180
+        },
+        {
+         "exerciseId": "205",
+         "name": "Фронтальные приседания",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "202",
+         "name": "Румынская тяга",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "240",
+         "name": "Подъёмы на носки стоя со штангой",
+         "primaryMuscle": "Икры",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "60 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "День жима",
+     "equipment": "штанга, гантели, тренажёры, блок, брусья",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "001",
+         "name": "Жим штанги лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "011",
+         "name": "Жим в грудном тренажёре",
+         "primaryMuscle": "Грудь",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "039",
+         "name": "Жим в тренажёре для плеч",
+         "primaryMuscle": "Плечи",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "123",
+         "name": "Разгибания в блоке с канатом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 50,
+       "exercises": [
+        {
+         "exerciseId": "001",
+         "name": "Жим штанги лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "002",
+         "name": "Жим штанги на наклонной скамье",
+         "primaryMuscle": "Грудь",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "030",
+         "name": "Жим штанги стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "119",
+         "name": "Жим лёжа узким хватом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "035",
+         "name": "Махи гантелями в стороны",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "123",
+         "name": "Разгибания в блоке с канатом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 65,
+       "exercises": [
+        {
+         "exerciseId": "001",
+         "name": "Жим штанги лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 5,
+         "reps": "5",
+         "restSec": 180
+        },
+        {
+         "exerciseId": "030",
+         "name": "Жим штанги стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "002",
+         "name": "Жим штанги на наклонной скамье",
+         "primaryMuscle": "Грудь",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "129",
+         "name": "Отжимания на брусьях с весом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "брусья",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "119",
+         "name": "Жим лёжа узким хватом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "035",
+         "name": "Махи гантелями в стороны",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "120",
+         "name": "Французский жим лёжа",
+         "primaryMuscle": "Трицепс",
+         "equipment": "EZ-гриф",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "День становой тяги",
+     "equipment": "штанга, гантели, тренажёры, блок, турник",
+     "levels": {
+      "novice": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "184",
+         "name": "Становая тяга",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "5",
+         "restSec": 180
+        },
+        {
+         "exerciseId": "080",
+         "name": "Рычажная тяга в тренажёре",
+         "primaryMuscle": "Спина",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "074",
+         "name": "Тяга верхнего блока",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "086",
+         "name": "Гиперэкстензия",
+         "primaryMuscle": "Спина",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "090",
+         "name": "Шраги с гантелями",
+         "primaryMuscle": "Трапеции",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 55,
+       "exercises": [
+        {
+         "exerciseId": "184",
+         "name": "Становая тяга",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "5",
+         "restSec": 180
+        },
+        {
+         "exerciseId": "068",
+         "name": "Тяга штанги в наклоне",
+         "primaryMuscle": "Спина",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "074",
+         "name": "Тяга верхнего блока",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "078",
+         "name": "Тяга нижнего блока сидя",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "089",
+         "name": "Шраги со штангой",
+         "primaryMuscle": "Трапеции",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "099",
+         "name": "Подъём штанги на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 65,
+       "exercises": [
+        {
+         "exerciseId": "184",
+         "name": "Становая тяга",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 5,
+         "reps": "3",
+         "restSec": 180
+        },
+        {
+         "exerciseId": "068",
+         "name": "Тяга штанги в наклоне",
+         "primaryMuscle": "Спина",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "063",
+         "name": "Подтягивания с дополнительным весом",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "071",
+         "name": "Тяга Т-грифа",
+         "primaryMuscle": "Спина",
+         "equipment": "Т-гриф",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "085",
+         "name": "Тяга с плинтов",
+         "primaryMuscle": "Спина",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "089",
+         "name": "Шраги со штангой",
+         "primaryMuscle": "Трапеции",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "099",
+         "name": "Подъём штанги на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "type06",
+   "number": 6,
+   "slug": "bars",
+   "title": "Турник и брусья",
+   "subtitle": "Тренировки на уличных снарядах собственным весом. Только турник, только брусья или оба снаряда.",
+   "howToChoose": "Смотри по площадке: есть только турник, только брусья — или всё сразу.",
+   "variants": [
+    {
+     "title": "Только турник",
+     "equipment": "турник",
+     "levels": {
+      "novice": {
+       "durationMin": 30,
+       "exercises": [
+        {
+         "exerciseId": "059",
+         "name": "Подтягивания",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "060",
+         "name": "Подтягивания обратным хватом",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "154",
+         "name": "Подъём коленей в висе",
+         "primaryMuscle": "Пресс",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "142",
+         "name": "Вис на перекладине",
+         "primaryMuscle": "Предплечья",
+         "equipment": "турник",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "059",
+         "name": "Подтягивания",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "060",
+         "name": "Подтягивания обратным хватом",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "061",
+         "name": "Подтягивания широким хватом",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "153",
+         "name": "Подъём ног в висе",
+         "primaryMuscle": "Пресс",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "154",
+         "name": "Подъём коленей в висе",
+         "primaryMuscle": "Пресс",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 50,
+       "exercises": [
+        {
+         "exerciseId": "063",
+         "name": "Подтягивания с дополнительным весом",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "059",
+         "name": "Подтягивания",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "064",
+         "name": "Подтягивания «лучник»",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "6/сторону",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "066",
+         "name": "Выход силой",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "5",
+         "restSec": 180
+        },
+        {
+         "exerciseId": "153",
+         "name": "Подъём ног в висе",
+         "primaryMuscle": "Пресс",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "067",
+         "name": "Передний вис",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "time",
+         "sets": 3,
+         "reps": "15 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Только брусья",
+     "equipment": "брусья",
+     "levels": {
+      "novice": {
+       "durationMin": 30,
+       "exercises": [
+        {
+         "exerciseId": "128",
+         "name": "Отжимания на брусьях",
+         "primaryMuscle": "Трицепс",
+         "equipment": "брусья",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "015",
+         "name": "Отжимания на брусьях с наклоном вперёд",
+         "primaryMuscle": "Грудь",
+         "equipment": "брусья",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "172",
+         "name": "Уголок",
+         "primaryMuscle": "Пресс",
+         "equipment": "брусья",
+         "logType": "time",
+         "sets": 3,
+         "reps": "15 сек",
+         "restSec": 45
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "128",
+         "name": "Отжимания на брусьях",
+         "primaryMuscle": "Трицепс",
+         "equipment": "брусья",
+         "logType": "reps",
+         "sets": 4,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "015",
+         "name": "Отжимания на брусьях с наклоном вперёд",
+         "primaryMuscle": "Грудь",
+         "equipment": "брусья",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "129",
+         "name": "Отжимания на брусьях с весом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "брусья",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "172",
+         "name": "Уголок",
+         "primaryMuscle": "Пресс",
+         "equipment": "брусья",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        },
+        {
+         "exerciseId": "152",
+         "name": "Боковая планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "129",
+         "name": "Отжимания на брусьях с весом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "брусья",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "015",
+         "name": "Отжимания на брусьях с наклоном вперёд",
+         "primaryMuscle": "Грудь",
+         "equipment": "брусья",
+         "logType": "reps",
+         "sets": 4,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "128",
+         "name": "Отжимания на брусьях",
+         "primaryMuscle": "Трицепс",
+         "equipment": "брусья",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "172",
+         "name": "Уголок",
+         "primaryMuscle": "Пресс",
+         "equipment": "брусья",
+         "logType": "time",
+         "sets": 3,
+         "reps": "40 сек",
+         "restSec": 45
+        },
+        {
+         "exerciseId": "152",
+         "name": "Боковая планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "45 сек",
+         "restSec": 45
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "60 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Турник + брусья",
+     "equipment": "турник, брусья",
+     "levels": {
+      "novice": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "059",
+         "name": "Подтягивания",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "128",
+         "name": "Отжимания на брусьях",
+         "primaryMuscle": "Трицепс",
+         "equipment": "брусья",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "060",
+         "name": "Подтягивания обратным хватом",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "015",
+         "name": "Отжимания на брусьях с наклоном вперёд",
+         "primaryMuscle": "Грудь",
+         "equipment": "брусья",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "154",
+         "name": "Подъём коленей в висе",
+         "primaryMuscle": "Пресс",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 50,
+       "exercises": [
+        {
+         "exerciseId": "059",
+         "name": "Подтягивания",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "128",
+         "name": "Отжимания на брусьях",
+         "primaryMuscle": "Трицепс",
+         "equipment": "брусья",
+         "logType": "reps",
+         "sets": 4,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "062",
+         "name": "Подтягивания нейтральным хватом",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "015",
+         "name": "Отжимания на брусьях с наклоном вперёд",
+         "primaryMuscle": "Грудь",
+         "equipment": "брусья",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "153",
+         "name": "Подъём ног в висе",
+         "primaryMuscle": "Пресс",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "172",
+         "name": "Уголок",
+         "primaryMuscle": "Пресс",
+         "equipment": "брусья",
+         "logType": "time",
+         "sets": 3,
+         "reps": "25 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 60,
+       "exercises": [
+        {
+         "exerciseId": "063",
+         "name": "Подтягивания с дополнительным весом",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "129",
+         "name": "Отжимания на брусьях с весом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "брусья",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "066",
+         "name": "Выход силой",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "5",
+         "restSec": 180
+        },
+        {
+         "exerciseId": "064",
+         "name": "Подтягивания «лучник»",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "6/сторону",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "015",
+         "name": "Отжимания на брусьях с наклоном вперёд",
+         "primaryMuscle": "Грудь",
+         "equipment": "брусья",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "153",
+         "name": "Подъём ног в висе",
+         "primaryMuscle": "Пресс",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "172",
+         "name": "Уголок",
+         "primaryMuscle": "Пресс",
+         "equipment": "брусья",
+         "logType": "time",
+         "sets": 3,
+         "reps": "40 сек",
+         "restSec": 45
+        },
+        {
+         "exerciseId": "067",
+         "name": "Передний вис",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "time",
+         "sets": 3,
+         "reps": "15 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "type07",
+   "number": 7,
+   "slug": "travel",
+   "title": "Тренировка в поездке",
+   "subtitle": "Тренинг в командировке и путешествии под три типичных сценария.",
+   "howToChoose": "Выбирай по месту: номер отеля без инвентаря, маленький зал при отеле или уличная площадка.",
+   "variants": [
+    {
+     "title": "Номер отеля (без инвентаря)",
+     "equipment": "без инвентаря",
+     "levels": {
+      "novice": {
+       "durationMin": 30,
+       "exercises": [
+        {
+         "exerciseId": "210",
+         "name": "Приседания без веса",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "017",
+         "name": "Отжимания с упором на возвышение",
+         "primaryMuscle": "Грудь",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "226",
+         "name": "«Стульчик» у стены",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        },
+        {
+         "exerciseId": "181",
+         "name": "Ягодичный мост лёжа",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "210",
+         "name": "Приседания без веса",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "20",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "013",
+         "name": "Отжимания",
+         "primaryMuscle": "Грудь",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "216",
+         "name": "Прыжковые выпады",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "045",
+         "name": "Отжимания «домиком»",
+         "primaryMuscle": "Плечи",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "087",
+         "name": "«Супермен»",
+         "primaryMuscle": "Спина",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "45 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 50,
+       "exercises": [
+        {
+         "exerciseId": "212",
+         "name": "«Пистолетик»",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8/нога",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "016",
+         "name": "Отжимания с ногами на возвышении",
+         "primaryMuscle": "Грудь",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "216",
+         "name": "Прыжковые выпады",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "020",
+         "name": "Отжимания «лучник»",
+         "primaryMuscle": "Грудь",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8/сторону",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "045",
+         "name": "Отжимания «домиком»",
+         "primaryMuscle": "Плечи",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "182",
+         "name": "Ягодичный мост на одной ноге",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15/нога",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "60 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Отельный мини-зал",
+     "equipment": "гантели",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "209",
+         "name": "Приседания с гантелями",
+         "primaryMuscle": "Бёдра",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "033",
+         "name": "Жим гантелей стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "207",
+         "name": "Гоблет-приседания",
+         "primaryMuscle": "Бёдра",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "005",
+         "name": "Жим гантелей на наклонной скамье",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "187",
+         "name": "Выпады назад",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "032",
+         "name": "Жим гантелей сидя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "101",
+         "name": "Попеременный подъём гантелей на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 55,
+       "exercises": [
+        {
+         "exerciseId": "188",
+         "name": "Болгарские сплит-приседания",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "10/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "033",
+         "name": "Жим гантелей стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "084",
+         "name": "Тяга гантели в планке",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "102",
+         "name": "Молотковые сгибания",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "121",
+         "name": "Французский жим сидя с гантелью",
+         "primaryMuscle": "Трицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Улица / спортплощадка",
+     "equipment": "турник, брусья, скамья",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "210",
+         "name": "Приседания без веса",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "065",
+         "name": "Австралийские подтягивания",
+         "primaryMuscle": "Спина",
+         "equipment": "низкая перекладина",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "131",
+         "name": "Отжимания от скамьи",
+         "primaryMuscle": "Трицепс",
+         "equipment": "скамья",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "013",
+         "name": "Отжимания",
+         "primaryMuscle": "Грудь",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "154",
+         "name": "Подъём коленей в висе",
+         "primaryMuscle": "Пресс",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "059",
+         "name": "Подтягивания",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "128",
+         "name": "Отжимания на брусьях",
+         "primaryMuscle": "Трицепс",
+         "equipment": "брусья",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "216",
+         "name": "Прыжковые выпады",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "013",
+         "name": "Отжимания",
+         "primaryMuscle": "Грудь",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "065",
+         "name": "Австралийские подтягивания",
+         "primaryMuscle": "Спина",
+         "equipment": "низкая перекладина",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "153",
+         "name": "Подъём ног в висе",
+         "primaryMuscle": "Пресс",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 50,
+       "exercises": [
+        {
+         "exerciseId": "063",
+         "name": "Подтягивания с дополнительным весом",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "129",
+         "name": "Отжимания на брусьях с весом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "брусья",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "066",
+         "name": "Выход силой",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "5",
+         "restSec": 180
+        },
+        {
+         "exerciseId": "016",
+         "name": "Отжимания с ногами на возвышении",
+         "primaryMuscle": "Грудь",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "212",
+         "name": "«Пистолетик»",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8/нога",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "153",
+         "name": "Подъём ног в висе",
+         "primaryMuscle": "Пресс",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "172",
+         "name": "Уголок",
+         "primaryMuscle": "Пресс",
+         "equipment": "брусья",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "type08",
+   "number": 8,
+   "slug": "soft_start",
+   "title": "Мягкий старт",
+   "subtitle": "Щадящее начало для новичков, старшего возраста и после долгого перерыва. Тренажёры, гантели, короткие удержания — без тяжёлой штанги.",
+   "howToChoose": "Спокойный вход в тренировки: чередуй низ, верх и всё тело в удобном порядке — спешить некуда.",
+   "variants": [
+    {
+     "title": "Низ тела и кор",
+     "equipment": "гантели, тренажёры, тумба",
+     "levels": {
+      "novice": {
+       "durationMin": 25,
+       "exercises": [
+        {
+         "exerciseId": "210",
+         "name": "Приседания без веса",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "181",
+         "name": "Ягодичный мост лёжа",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "219",
+         "name": "Разгибания ног в тренажёре",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 2,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "20 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "206",
+         "name": "Приседания в тренажёре Смита",
+         "primaryMuscle": "Бёдра",
+         "equipment": "машина Смита",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "192",
+         "name": "Отведение бедра в тренажёре",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "207",
+         "name": "Гоблет-приседания",
+         "primaryMuscle": "Бёдра",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "190",
+         "name": "Зашагивания на тумбу",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "тумба",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "192",
+         "name": "Отведение бедра в тренажёре",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "40 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Верх тела",
+     "equipment": "гантели, тренажёры, блок",
+     "levels": {
+      "novice": {
+       "durationMin": 25,
+       "exercises": [
+        {
+         "exerciseId": "011",
+         "name": "Жим в грудном тренажёре",
+         "primaryMuscle": "Грудь",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "074",
+         "name": "Тяга верхнего блока",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "039",
+         "name": "Жим в тренажёре для плеч",
+         "primaryMuscle": "Плечи",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 2,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "112",
+         "name": "Сгибания в тренажёре",
+         "primaryMuscle": "Бицепс",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 2,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "011",
+         "name": "Жим в грудном тренажёре",
+         "primaryMuscle": "Грудь",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "078",
+         "name": "Тяга нижнего блока сидя",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "032",
+         "name": "Жим гантелей сидя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "101",
+         "name": "Попеременный подъём гантелей на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "123",
+         "name": "Разгибания в блоке с канатом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "033",
+         "name": "Жим гантелей стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "074",
+         "name": "Тяга верхнего блока",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "035",
+         "name": "Махи гантелями в стороны",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "102",
+         "name": "Молотковые сгибания",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Всё тело",
+     "equipment": "гантели, тренажёры, блок",
+     "levels": {
+      "novice": {
+       "durationMin": 30,
+       "exercises": [
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "011",
+         "name": "Жим в грудном тренажёре",
+         "primaryMuscle": "Грудь",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "074",
+         "name": "Тяга верхнего блока",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "20 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "206",
+         "name": "Приседания в тренажёре Смита",
+         "primaryMuscle": "Бёдра",
+         "equipment": "машина Смита",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "078",
+         "name": "Тяга нижнего блока сидя",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "032",
+         "name": "Жим гантелей сидя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "207",
+         "name": "Гоблет-приседания",
+         "primaryMuscle": "Бёдра",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "033",
+         "name": "Жим гантелей стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "40 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "type09",
+   "number": 9,
+   "slug": "health",
+   "title": "Здоровье и активность",
+   "subtitle": "Общее здоровье, осанка, крепкий кор и выносливость. Суставно-дружелюбные упражнения плюс кардио.",
+   "howToChoose": "Выбери, где удобнее двигаться: дома, в зале с тренажёрами и кардио — или возьми комплекс для осанки и спины.",
+   "variants": [
+    {
+     "title": "Дома",
+     "equipment": "гантели, резинки, скакалка",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "210",
+         "name": "Приседания без веса",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "017",
+         "name": "Отжимания с упором на возвышение",
+         "primaryMuscle": "Грудь",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "181",
+         "name": "Ягодичный мост лёжа",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "087",
+         "name": "«Супермен»",
+         "primaryMuscle": "Спина",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "210",
+         "name": "Приседания без веса",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "013",
+         "name": "Отжимания",
+         "primaryMuscle": "Грудь",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "214",
+         "name": "Выпады вперёд",
+         "primaryMuscle": "Бёдра",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "083",
+         "name": "Тяга в наклоне с резиновой лентой",
+         "primaryMuscle": "Спина",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "087",
+         "name": "«Супермен»",
+         "primaryMuscle": "Спина",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "45 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "216",
+         "name": "Прыжковые выпады",
+         "primaryMuscle": "Бёдра",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "013",
+         "name": "Отжимания",
+         "primaryMuscle": "Грудь",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "20",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "045",
+         "name": "Отжимания «домиком»",
+         "primaryMuscle": "Плечи",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "083",
+         "name": "Тяга в наклоне с резиновой лентой",
+         "primaryMuscle": "Спина",
+         "equipment": "резинка",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "182",
+         "name": "Ягодичный мост на одной ноге",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "15/нога",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "152",
+         "name": "Боковая планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "40 сек",
+         "restSec": 45
+        },
+        {
+         "exerciseId": "246",
+         "name": "Скакалка",
+         "primaryMuscle": "Икры",
+         "equipment": "скакалка",
+         "logType": "cardio",
+         "sets": 3,
+         "reps": "60 сек",
+         "restSec": 0
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "В зале (тренажёры + кардио)",
+     "equipment": "штанга, гантели, тренажёры, блок, кардиотренажёр",
+     "levels": {
+      "novice": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "234",
+         "name": "Велотренажёр",
+         "primaryMuscle": "Бёдра",
+         "equipment": "велотренажёр",
+         "logType": "cardio",
+         "sets": 1,
+         "reps": "10 мин",
+         "restSec": 0
+        },
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "011",
+         "name": "Жим в грудном тренажёре",
+         "primaryMuscle": "Грудь",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "074",
+         "name": "Тяга верхнего блока",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 50,
+       "exercises": [
+        {
+         "exerciseId": "236",
+         "name": "Эллиптический тренажёр",
+         "primaryMuscle": "Бёдра",
+         "equipment": "эллипсоид",
+         "logType": "cardio",
+         "sets": 1,
+         "reps": "12 мин",
+         "restSec": 0
+        },
+        {
+         "exerciseId": "206",
+         "name": "Приседания в тренажёре Смита",
+         "primaryMuscle": "Бёдра",
+         "equipment": "машина Смита",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "078",
+         "name": "Тяга нижнего блока сидя",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "042",
+         "name": "Тяга каната к лицу",
+         "primaryMuscle": "Плечи",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "40 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 55,
+       "exercises": [
+        {
+         "exerciseId": "237",
+         "name": "Гребной тренажёр",
+         "primaryMuscle": "Бёдра",
+         "equipment": "гребной тренажёр",
+         "logType": "cardio",
+         "sets": 1,
+         "reps": "12 мин",
+         "restSec": 0
+        },
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "032",
+         "name": "Жим гантелей сидя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "042",
+         "name": "Тяга каната к лицу",
+         "primaryMuscle": "Плечи",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "45 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Функционально: кор, осанка, спина",
+     "equipment": "штанга, гантели, тренажёры, блок",
+     "levels": {
+      "novice": {
+       "durationMin": 30,
+       "exercises": [
+        {
+         "exerciseId": "086",
+         "name": "Гиперэкстензия",
+         "primaryMuscle": "Спина",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "087",
+         "name": "«Супермен»",
+         "primaryMuscle": "Спина",
+         "equipment": "собственный вес",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "042",
+         "name": "Тяга каната к лицу",
+         "primaryMuscle": "Плечи",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        },
+        {
+         "exerciseId": "152",
+         "name": "Боковая планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "20 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "086",
+         "name": "Гиперэкстензия",
+         "primaryMuscle": "Спина",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "078",
+         "name": "Тяга нижнего блока сидя",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "042",
+         "name": "Тяга каната к лицу",
+         "primaryMuscle": "Плечи",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "040",
+         "name": "Обратная разводка в тренажёре",
+         "primaryMuscle": "Плечи",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "45 сек",
+         "restSec": 45
+        },
+        {
+         "exerciseId": "152",
+         "name": "Боковая планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "202",
+         "name": "Румынская тяга",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "042",
+         "name": "Тяга каната к лицу",
+         "primaryMuscle": "Плечи",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "036",
+         "name": "Махи гантелями в наклоне",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "086",
+         "name": "Гиперэкстензия",
+         "primaryMuscle": "Спина",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "60 сек",
+         "restSec": 45
+        },
+        {
+         "exerciseId": "152",
+         "name": "Боковая планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "40 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "type10",
+   "number": 10,
+   "slug": "upper_lower",
+   "title": "Сплит верх/низ",
+   "subtitle": "Двухдневное деление тела на верх и низ плюс дополнительный день на всё тело.",
+   "howToChoose": "Чередуй «Верх тела» и «Низ тела» через день отдыха, а «Всё тело» добавляй, когда хочется дополнительный день.",
+   "variants": [
+    {
+     "title": "Верх тела",
+     "equipment": "штанга, гантели, тренажёры, блок, турник",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "011",
+         "name": "Жим в грудном тренажёре",
+         "primaryMuscle": "Грудь",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "074",
+         "name": "Тяга верхнего блока",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "039",
+         "name": "Жим в тренажёре для плеч",
+         "primaryMuscle": "Плечи",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "112",
+         "name": "Сгибания в тренажёре",
+         "primaryMuscle": "Бицепс",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "123",
+         "name": "Разгибания в блоке с канатом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "032",
+         "name": "Жим гантелей сидя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "078",
+         "name": "Тяга нижнего блока сидя",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "101",
+         "name": "Попеременный подъём гантелей на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "123",
+         "name": "Разгибания в блоке с канатом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 65,
+       "exercises": [
+        {
+         "exerciseId": "001",
+         "name": "Жим штанги лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "068",
+         "name": "Тяга штанги в наклоне",
+         "primaryMuscle": "Спина",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "030",
+         "name": "Жим штанги стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "059",
+         "name": "Подтягивания",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "005",
+         "name": "Жим гантелей на наклонной скамье",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "035",
+         "name": "Махи гантелями в стороны",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "099",
+         "name": "Подъём штанги на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "120",
+         "name": "Французский жим лёжа",
+         "primaryMuscle": "Трицепс",
+         "equipment": "EZ-гриф",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Низ тела",
+     "equipment": "штанга, гантели, тренажёры",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "219",
+         "name": "Разгибания ног в тренажёре",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "253",
+         "name": "Ягодичный мост в тренажёре",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "241",
+         "name": "Подъёмы на носки в тренажёре стоя",
+         "primaryMuscle": "Икры",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "202",
+         "name": "Румынская тяга",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "187",
+         "name": "Выпады назад",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "219",
+         "name": "Разгибания ног в тренажёре",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "242",
+         "name": "Подъёмы на носки сидя",
+         "primaryMuscle": "Икры",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "20",
+         "restSec": 60
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 60,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "184",
+         "name": "Становая тяга",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "188",
+         "name": "Болгарские сплит-приседания",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "219",
+         "name": "Разгибания ног в тренажёре",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "180",
+         "name": "Ягодичный мост со штангой",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "241",
+         "name": "Подъёмы на носки в тренажёре стоя",
+         "primaryMuscle": "Икры",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "15",
+         "restSec": 60
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Всё тело (доп. день)",
+     "equipment": "штанга, гантели, тренажёры, турник",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "206",
+         "name": "Приседания в тренажёре Смита",
+         "primaryMuscle": "Бёдра",
+         "equipment": "машина Смита",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "011",
+         "name": "Жим в грудном тренажёре",
+         "primaryMuscle": "Грудь",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "080",
+         "name": "Рычажная тяга в тренажёре",
+         "primaryMuscle": "Спина",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "035",
+         "name": "Махи гантелями в стороны",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "30 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 40,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "032",
+         "name": "Жим гантелей сидя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "099",
+         "name": "Подъём штанги на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "40 сек",
+         "restSec": 45
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 55,
+       "exercises": [
+        {
+         "exerciseId": "184",
+         "name": "Становая тяга",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "6",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "001",
+         "name": "Жим штанги лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "059",
+         "name": "Подтягивания",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "030",
+         "name": "Жим штанги стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "188",
+         "name": "Болгарские сплит-приседания",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "035",
+         "name": "Махи гантелями в стороны",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "151",
+         "name": "Планка",
+         "primaryMuscle": "Пресс",
+         "equipment": "собственный вес",
+         "logType": "time",
+         "sets": 3,
+         "reps": "45 сек",
+         "restSec": 45
+        }
+       ]
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "type11",
+   "number": 11,
+   "slug": "split3",
+   "title": "Сплит 3 дня в неделю",
+   "subtitle": "Классическое трёхдневное деление: Грудь+Бицепс / Спина+Трицепс / Ноги+Плечи.",
+   "howToChoose": "Три дня в неделю — три связки мышц. Проходи их по порядку, между тренировками — день отдыха.",
+   "variants": [
+    {
+     "title": "Грудь + Бицепс",
+     "equipment": "штанга, гантели, тренажёры, блок, брусья",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "011",
+         "name": "Жим в грудном тренажёре",
+         "primaryMuscle": "Грудь",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "012",
+         "name": "Сведение в тренажёре «бабочка»",
+         "primaryMuscle": "Грудь",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "101",
+         "name": "Попеременный подъём гантелей на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "112",
+         "name": "Сгибания в тренажёре",
+         "primaryMuscle": "Бицепс",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "001",
+         "name": "Жим штанги лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "005",
+         "name": "Жим гантелей на наклонной скамье",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "008",
+         "name": "Сведение рук в кроссовере",
+         "primaryMuscle": "Грудь",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "099",
+         "name": "Подъём штанги на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "102",
+         "name": "Молотковые сгибания",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "105",
+         "name": "Сгибания на наклонной скамье",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 60,
+       "exercises": [
+        {
+         "exerciseId": "001",
+         "name": "Жим штанги лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "002",
+         "name": "Жим штанги на наклонной скамье",
+         "primaryMuscle": "Грудь",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "004",
+         "name": "Жим гантелей лёжа",
+         "primaryMuscle": "Грудь",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "008",
+         "name": "Сведение рук в кроссовере",
+         "primaryMuscle": "Грудь",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "128",
+         "name": "Отжимания на брусьях",
+         "primaryMuscle": "Трицепс",
+         "equipment": "брусья",
+         "logType": "reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "099",
+         "name": "Подъём штанги на бицепс",
+         "primaryMuscle": "Бицепс",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "102",
+         "name": "Молотковые сгибания",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "106",
+         "name": "Паучьи сгибания",
+         "primaryMuscle": "Бицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Спина + Трицепс",
+     "equipment": "штанга, гантели, тренажёры, блок, турник, брусья",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "074",
+         "name": "Тяга верхнего блока",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "080",
+         "name": "Рычажная тяга в тренажёре",
+         "primaryMuscle": "Спина",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "078",
+         "name": "Тяга нижнего блока сидя",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "123",
+         "name": "Разгибания в блоке с канатом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "124",
+         "name": "Разгибания в блоке прямой рукоятью",
+         "primaryMuscle": "Трицепс",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "074",
+         "name": "Тяга верхнего блока",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "068",
+         "name": "Тяга штанги в наклоне",
+         "primaryMuscle": "Спина",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "072",
+         "name": "Тяга гантели одной рукой в упоре",
+         "primaryMuscle": "Спина",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/рука",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "119",
+         "name": "Жим лёжа узким хватом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "123",
+         "name": "Разгибания в блоке с канатом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "122",
+         "name": "Разгибание одной руки с гантелью из-за головы",
+         "primaryMuscle": "Трицепс",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 65,
+       "exercises": [
+        {
+         "exerciseId": "059",
+         "name": "Подтягивания",
+         "primaryMuscle": "Спина",
+         "equipment": "турник",
+         "logType": "reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "068",
+         "name": "Тяга штанги в наклоне",
+         "primaryMuscle": "Спина",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "071",
+         "name": "Тяга Т-грифа",
+         "primaryMuscle": "Спина",
+         "equipment": "Т-гриф",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "078",
+         "name": "Тяга нижнего блока сидя",
+         "primaryMuscle": "Спина",
+         "equipment": "блок",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "119",
+         "name": "Жим лёжа узким хватом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "129",
+         "name": "Отжимания на брусьях с весом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "брусья",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "123",
+         "name": "Разгибания в блоке с канатом",
+         "primaryMuscle": "Трицепс",
+         "equipment": "кроссовер",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "120",
+         "name": "Французский жим лёжа",
+         "primaryMuscle": "Трицепс",
+         "equipment": "EZ-гриф",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        }
+       ]
+      }
+     }
+    },
+    {
+     "title": "Ноги + Плечи",
+     "equipment": "штанга, гантели, тренажёры",
+     "levels": {
+      "novice": {
+       "durationMin": 35,
+       "exercises": [
+        {
+         "exerciseId": "217",
+         "name": "Жим ногами",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "219",
+         "name": "Разгибания ног в тренажёре",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "039",
+         "name": "Жим в тренажёре для плеч",
+         "primaryMuscle": "Плечи",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "035",
+         "name": "Махи гантелями в стороны",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        }
+       ]
+      },
+      "middle": {
+       "durationMin": 45,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "202",
+         "name": "Румынская тяга",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "032",
+         "name": "Жим гантелей сидя",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "035",
+         "name": "Махи гантелями в стороны",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "036",
+         "name": "Махи гантелями в наклоне",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        }
+       ]
+      },
+      "advanced": {
+       "durationMin": 60,
+       "exercises": [
+        {
+         "exerciseId": "204",
+         "name": "Приседания со штангой",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "202",
+         "name": "Румынская тяга",
+         "primaryMuscle": "Бёдра",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "188",
+         "name": "Болгарские сплит-приседания",
+         "primaryMuscle": "Ягодицы",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "10/нога",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "220",
+         "name": "Сгибания ног лёжа",
+         "primaryMuscle": "Бёдра",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "12",
+         "restSec": 90
+        },
+        {
+         "exerciseId": "030",
+         "name": "Жим штанги стоя",
+         "primaryMuscle": "Плечи",
+         "equipment": "штанга",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "8",
+         "restSec": 120
+        },
+        {
+         "exerciseId": "035",
+         "name": "Махи гантелями в стороны",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 4,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "036",
+         "name": "Махи гантелями в наклоне",
+         "primaryMuscle": "Плечи",
+         "equipment": "гантели",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        },
+        {
+         "exerciseId": "241",
+         "name": "Подъёмы на носки в тренажёре стоя",
+         "primaryMuscle": "Икры",
+         "equipment": "тренажёр",
+         "logType": "weight_reps",
+         "sets": 3,
+         "reps": "15",
+         "restSec": 60
+        }
+       ]
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

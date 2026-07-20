@@ -1,0 +1,123 @@
+<!DOCTYPE html><html><head>
+  <base href="/qqfit-web/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="QQFIT — фитнес-трекер: карта мышц, ранги, дневник тренировок и питание">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#2F5D50">
+
+  <!-- iOS: standalone-режим «На экран Домой» -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="QQFIT">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <title>QQFIT</title>
+  <link rel="manifest" href="manifest.json">
+  <style id="splash-screen-style">
+    html {
+      height: 100%
+    }
+
+    body {
+      margin: 0;
+      min-height: 100%;
+      background-color: #F5F2EB;
+          background-size: 100% 100%;
+    }
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .contain {
+      display:block;
+      width:100%; height:100%;
+      object-fit: contain;
+    }
+
+    .stretch {
+      display:block;
+      width:100%; height:100%;
+    }
+
+    .cover {
+      display:block;
+      width:100%; height:100%;
+      object-fit: cover;
+    }
+
+    .bottom {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -ms-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+    }
+
+    .bottomLeft {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    .bottomRight {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  </style>
+  <script id="splash-screen-script">
+    function removeSplashFromWeb() {
+      document.getElementById("splash")?.remove();
+      document.getElementById("splash-branding")?.remove();
+      document.body.style.background = "transparent";
+    }
+    // Генератор flutter_native_splash не вставил вызов — без этого
+    // слушателя сплэш перекрывает живое приложение навсегда.
+    window.addEventListener("flutter-first-frame", removeSplashFromWeb);
+
+    // iOS Safari сбрасывает WebGL-контекст (фотопикер, камера, нехватка
+    // GPU-памяти). CanvasKit сам не восстанавливается — остаётся мёртвый
+    // «белый экран». Лечение одно: перезагрузить страницу (данные целы,
+    // они в localStorage). Событие не всплывает, поэтому capture-фаза.
+    window.addEventListener("webglcontextlost", function (e) {
+      e.preventDefault();
+      location.reload();
+    }, true);
+
+    // Страховка загрузки: если первый кадр так и не отрисовался за 20 с
+    // (движок не стартовал после сбоя), один раз пробуем перезагрузиться.
+    window.addEventListener("flutter-first-frame", function () {
+      sessionStorage.removeItem("qqfit-boot-retry");
+    });
+    setTimeout(function () {
+      var stuck = !!document.getElementById("splash");
+      if (stuck && !sessionStorage.getItem("qqfit-boot-retry")) {
+        sessionStorage.setItem("qqfit-boot-retry", "1");
+        location.reload();
+      }
+    }, 20000);
+  </script>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+</head>
+<body>
+  <picture id="splash">
+      <source srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x" media="(prefers-color-scheme: light)">
+      <source srcset="splash/img/dark-1x.png 1x, splash/img/dark-2x.png 2x, splash/img/dark-3x.png 3x, splash/img/dark-4x.png 4x" media="(prefers-color-scheme: dark)">
+      <img class="center" aria-hidden="true" src="splash/img/light-1x.png" alt="">
+  </picture>
+  <script src="flutter_bootstrap.js" async=""></script>
+
+
+</body></html>
