@@ -220,7 +220,7 @@ font-family: var(--font-head); font-weight: 900; font-size: 22px;
 .steps { grid-template-columns: repeat(3, 1fr); }
 }
 .ranks__top { display: grid; gap: 44px; align-items: center; }
-.ranks__phones { display: flex; justify-content: center; gap: 16px; }
+.ranks__phones { display: flex; justify-content: center; align-items: flex-start; gap: 16px; }
 .phone--rank { --w: min(44vw, 250px); padding: 6px; }
 .phone--rank > img { border-radius: calc(var(--radius-phone) - 6px); }
 .phone--offset { margin-top: 48px; }
@@ -582,7 +582,7 @@ html { scroll-behavior: auto; }
           </div>
           <div class="phone phone--step">
             <img src="assets/screens/13_schitaem-360.webp"
-                 srcset="assets/screens/13_schitaem-360.webp 360w, assets/screens/13_schitaem-540.webp 540w, assets/screens/13_schitaem-720.webp 720w"
+                 srcset="assets/screens/13_schitaem-360.webp 360w, assets/screens/13_schitaem-540.webp 540w"
                  sizes="240px" width="1080" height="2270" loading="lazy"
                  alt="Экран «Считаем…»: приложение определяет ступень ранга по результату упражнения" style="background:url(data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABQAwCdASoMABkAPt1cpkyopSOiMAgBEBuJaQAAYcwUGf82gAD+8tc8MQXdWqdci+1enJockhFXq/Q+AAA=) center/cover no-repeat">
           </div>
@@ -595,7 +595,7 @@ html { scroll-behavior: auto; }
           </div>
           <div class="phone phone--step">
             <img src="assets/screens/06_trenirovka_galochki-360.webp"
-                 srcset="assets/screens/06_trenirovka_galochki-360.webp 360w, assets/screens/06_trenirovka_galochki-540.webp 540w, assets/screens/06_trenirovka_galochki-720.webp 720w"
+                 srcset="assets/screens/06_trenirovka_galochki-360.webp 360w, assets/screens/06_trenirovka_galochki-540.webp 540w"
                  sizes="240px" width="1080" height="2270" loading="lazy"
                  alt="Идущая тренировка: подходы приседаний со штангой отмечены галочками, рядом вес и повторы" style="background:url(data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAwCdASoMABkAPt1cqUyopSQiMAgBEBuJZwAAW+mnuinD3uXpP0AA/vNul5EZDFLsaoMeIB6eGBZTeniJhWYIj+F+PGnscXNdajE7mpQAAA==) center/cover no-repeat">
           </div>
@@ -608,7 +608,7 @@ html { scroll-behavior: auto; }
           </div>
           <div class="phone phone--step">
             <img src="assets/screens/03_rost_za_trenirovku-360.webp"
-                 srcset="assets/screens/03_rost_za_trenirovku-360.webp 360w, assets/screens/03_rost_za_trenirovku-540.webp 540w, assets/screens/03_rost_za_trenirovku-720.webp 720w"
+                 srcset="assets/screens/03_rost_za_trenirovku-360.webp 360w, assets/screens/03_rost_za_trenirovku-540.webp 540w"
                  sizes="240px" width="1080" height="2270" loading="lazy"
                  alt="Итог тренировки: время, поднятый вес и строка «Лучше, чем в прошлый раз»" style="background:url(data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAgCdASoMABkAPt1cpkyopSOiMAgBEBuJaQAAfKAAAP7w5q1dlOuTZcvIXeauNra5yzAb31tcneAA) center/cover no-repeat">
           </div>
@@ -628,13 +628,13 @@ html { scroll-behavior: auto; }
         <div class="ranks__phones" data-stagger>
           <div class="phone phone--rank" data-reveal>
             <img src="assets/screens/10_rangi_myshc-360.webp"
-                 srcset="assets/screens/10_rangi_myshc-360.webp 360w, assets/screens/10_rangi_myshc-540.webp 540w, assets/screens/10_rangi_myshc-720.webp 720w"
+                 srcset="assets/screens/10_rangi_myshc-360.webp 360w, assets/screens/10_rangi_myshc-540.webp 540w"
                  sizes="(min-width: 1024px) 250px, 42vw" width="1080" height="2270" loading="lazy"
                  alt="Экран «Ранги мышц»: лестница рангов и ранг каждой группы мышц" style="background:url(data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAgCdASoMABkAPt1cpkyopSOiMAgBEBuJaQAAfKAAAP7w9i1w1Iiv2ISvfwayfSzcAAAA) center/cover no-repeat">
           </div>
           <div class="phone phone--rank phone--offset" data-reveal>
             <img src="assets/screens/12_karta_ranga_temnaya-360.webp"
-                 srcset="assets/screens/12_karta_ranga_temnaya-360.webp 360w, assets/screens/12_karta_ranga_temnaya-540.webp 540w, assets/screens/12_karta_ranga_temnaya-720.webp 720w"
+                 srcset="assets/screens/12_karta_ranga_temnaya-360.webp 360w, assets/screens/12_karta_ranga_temnaya-540.webp 540w"
                  sizes="(min-width: 1024px) 250px, 42vw" width="1080" height="2270" loading="lazy"
                  alt="Карточка ранга «Алмаз I» для плеч в тёмной теме" style="background:url(data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABwBACdASoMABkAPt1cpkyopSOiMAgBEBuJYgCdMoRwACmzW8BBA6uOAStQAAD+g8yScnVVOOCbYnoLteuXIl28dtNZTB2zfI6BC3NQSHy5y5yihTa2FJm4MidyXjaYoAA=) center/cover no-repeat">
           </div>
@@ -742,11 +742,11 @@ html { scroll-behavior: auto; }
           <div class="card__visual">
             <div class="frames">
               <img src="assets/screens/04_tehnika_kadr1-360.webp"
-                   srcset="assets/screens/04_tehnika_kadr1-360.webp 360w, assets/screens/04_tehnika_kadr1-540.webp 540w, assets/screens/04_tehnika_kadr1-720.webp 720w"
+                   srcset="assets/screens/04_tehnika_kadr1-360.webp 360w, assets/screens/04_tehnika_kadr1-540.webp 540w"
                    sizes="260px" width="1080" height="1895" loading="lazy"
                    alt="Карточка упражнения «Жим гантелей лёжа»: первый кадр движения" style="background:url(data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAwCdASoMABUAPt1cp0yopSOiMAgBEBuJaQAAW9VuyzJAlphM0AD+ze5KzppvN1asDD8jx4t+yW32N9YMv33k8pgAAA==) center/cover no-repeat">
               <img class="frames__second" src="assets/screens/05_tehnika_kadr2-360.webp"
-                   srcset="assets/screens/05_tehnika_kadr2-360.webp 360w, assets/screens/05_tehnika_kadr2-540.webp 540w, assets/screens/05_tehnika_kadr2-720.webp 720w"
+                   srcset="assets/screens/05_tehnika_kadr2-360.webp 360w, assets/screens/05_tehnika_kadr2-540.webp 540w"
                    sizes="260px" width="1080" height="1895" loading="lazy"
                    alt="" aria-hidden="true" style="background:url(data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACwAwCdASoMABUAPt1cp0yopSOiMAgBEBuJaQAAW9VuyzJAlphM0AD+ze5KzppvN1asDD8jx4t+yW32N9YMv33k8pgAAA==) center/cover no-repeat">
             </div>
@@ -759,7 +759,7 @@ html { scroll-behavior: auto; }
           <div class="card__visual">
             <div class="phone phone--card">
               <img src="assets/screens/07_gotovye_programmy-360.webp"
-                   srcset="assets/screens/07_gotovye_programmy-360.webp 360w, assets/screens/07_gotovye_programmy-540.webp 540w, assets/screens/07_gotovye_programmy-720.webp 720w"
+                   srcset="assets/screens/07_gotovye_programmy-360.webp 360w, assets/screens/07_gotovye_programmy-540.webp 540w"
                    sizes="220px" width="1080" height="2270" loading="lazy"
                    alt="Список готовых программ: силовая классика, сплит верх/низ, сплит 3 дня в неделю и другие" style="background:url(data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAwAwCdASoMABkAPt1apkyopSOiMAgBEBuJaQAAPFkq9fgAAP50rTtbfPNYnSrm1D/h6GPd64h4MKzXQAA=) center/cover no-repeat">
             </div>
@@ -772,7 +772,7 @@ html { scroll-behavior: auto; }
           <div class="card__visual">
             <div class="phone phone--card">
               <img src="assets/screens/14_doma-360.webp"
-                   srcset="assets/screens/14_doma-360.webp 360w, assets/screens/14_doma-540.webp 540w, assets/screens/14_doma-720.webp 720w"
+                   srcset="assets/screens/14_doma-360.webp 360w, assets/screens/14_doma-540.webp 540w"
                    sizes="220px" width="1080" height="2270" loading="lazy"
                    alt="Раздел «Домашние тренировки» с выбором инвентаря и уровня" style="background:url(data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAwAwCdASoMABkALqVut1ujKKioiICkSzgABdTSBMtD7nAAAPqaXAS5lKO3goVXEx1bXGJHFFM4/z6VDZkl1EEu0HBuNCs+AAA=) center/cover no-repeat">
             </div>
@@ -785,12 +785,12 @@ html { scroll-behavior: auto; }
           <div class="card__visual card__visual--food">
             <div class="phone phone--card">
               <img src="assets/screens/08_pitanie-360.webp"
-                   srcset="assets/screens/08_pitanie-360.webp 360w, assets/screens/08_pitanie-540.webp 540w, assets/screens/08_pitanie-720.webp 720w"
+                   srcset="assets/screens/08_pitanie-360.webp 360w, assets/screens/08_pitanie-540.webp 540w"
                    sizes="220px" width="1080" height="2270" loading="lazy"
                    alt="Дневник питания: кольцо калорий, белки, жиры, углеводы и приёмы пищи" style="background:url(data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAwCdASoMABkAPt1cpkyopSOiMAgBEBuJaQAAXGUdH1yhGpAAAP7zdZxfUP3TLKlJouHvic932Sp4XlkcYAAA) center/cover no-repeat">
             </div>
             <img class="water-card" src="assets/screens/15_voda_kartochka-360.webp"
-                 srcset="assets/screens/15_voda_kartochka-360.webp 360w, assets/screens/15_voda_kartochka-540.webp 540w, assets/screens/15_voda_kartochka-720.webp 720w"
+                 srcset="assets/screens/15_voda_kartochka-360.webp 360w, assets/screens/15_voda_kartochka-540.webp 540w"
                  sizes="160px" width="1000" height="1030" loading="lazy"
                  alt="Карточка воды: выпито 76 % нормы, кнопки +100, +250, +330, +500" style="background:url(data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoMAAwAAwBSJQBOgCHf3NYzAAD+90MHcUGm78vj6ypdv8/GpCH1v9nmceUxVmafiEjFYAAA) center/cover no-repeat">
           </div>
@@ -802,7 +802,7 @@ html { scroll-behavior: auto; }
           <div class="card__visual">
             <div class="phone phone--card">
               <img src="assets/screens/09_ogonyok_serii-360.webp"
-                   srcset="assets/screens/09_ogonyok_serii-360.webp 360w, assets/screens/09_ogonyok_serii-540.webp 540w, assets/screens/09_ogonyok_serii-720.webp 720w"
+                   srcset="assets/screens/09_ogonyok_serii-360.webp 360w, assets/screens/09_ogonyok_serii-540.webp 540w"
                    sizes="220px" width="1080" height="2270" loading="lazy"
                    alt="Окно «Огонёк»: серия дней, заморозки и пауза на время болезни или травмы" style="background:url(data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoMABkAAwBSJaQAAurZeG4ZYuCAAOJoNreZKyHHLbfv4EuvvwvBq1vJSSNuzZ0AuCgJBqaJT8j/3SDvwMoAAA==) center/cover no-repeat">
             </div>
@@ -815,7 +815,7 @@ html { scroll-behavior: auto; }
           <div class="card__visual">
             <div class="phone phone--card">
               <img src="assets/screens/11_karta_tela_temnaya-360.webp"
-                   srcset="assets/screens/11_karta_tela_temnaya-360.webp 360w, assets/screens/11_karta_tela_temnaya-540.webp 540w, assets/screens/11_karta_tela_temnaya-720.webp 720w"
+                   srcset="assets/screens/11_karta_tela_temnaya-360.webp 360w, assets/screens/11_karta_tela_temnaya-540.webp 540w"
                    sizes="220px" width="1080" height="2270" loading="lazy"
                    alt="Главный экран с картой тела в тёмной теме" style="background:url(data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQAwCdASoMABkAPt1apkyopSOiMAgBEBuJZQDKABjbqo+GAAD+wZs5WeQon0A0BgpfsLsc0ZEE7+8fHUC8tsvDa3wTxKqcVlpooLA+qTgIJJ9FWwAAAA==) center/cover no-repeat">
             </div>
@@ -1245,6 +1245,8 @@ html { scroll-behavior: auto; }
     return queue.splice(best, 1)[0];
   }
 
+  var PARALLEL = 2;
+
   function prefetch(done) {
     var queue = Array.prototype.filter.call(document.images, function (im) {
       return im.loading === 'lazy' && !im.complete;
@@ -1252,11 +1254,12 @@ html { scroll-behavior: auto; }
     var active = 0;
     function next() {
       if (!queue.length && !active) return done();
-      while (active < 2 && queue.length) {
+      while (active < PARALLEL && queue.length) {
         var im = nearest(queue);
         if (im.complete) continue;
         active++;
         watch(im);
+        im.fetchPriority = 'low';   // то, что на экране, грузится первым
         im.loading = 'eager';
       }
     }

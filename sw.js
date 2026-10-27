@@ -5,7 +5,7 @@
 // старый кэш, и со следующего захода человек видит свежий сайт.
 // Чтобы выключить кэш насовсем, положите сюда тот же «самоубийца», что
 // лежит в flutter_service_worker.js.
-var CACHE = 'qqfit-site-bb1c727242';
+var CACHE = 'qqfit-site-950eef7a25';
 
 self.addEventListener('install', function () { self.skipWaiting(); });
 
