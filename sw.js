@@ -30,6 +30,8 @@ self.addEventListener('fetch', function (event) {
   if (req.method !== 'GET') return;
   var key = keyFor(req.url);
   if (!key || /\/(sw|flutter_service_worker)\.js$/.test(key)) return;
+  // короткие ссылки на магазины (/app, /tt, /yt…) — всегда свежие из сети
+  if (/^https?:\/\/[^/]+\/(app|tt|yt|vk|tg|ig)(\/(index\.html)?)?$/.test(key)) return;
   event.respondWith(caches.open(CACHE).then(function (cache) {
     return cache.match(key).then(function (hit) {
       return hit || fetch(req).then(function (res) {
