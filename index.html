@@ -154,6 +154,11 @@ min-height: 44px;
 .gp-badge img { height: 72px; width: auto; aspect-ratio: 646 / 250; }
 @media (min-width: 1024px) { .gp-badge--lg img { height: 76px; } }
 .gp-badge.is-missing img { display: none; }
+.as-badge { display: inline-flex; align-items: center; gap: 10px; height: 58px; padding: 0 20px 0 16px; border-radius: 12px;
+  background: #000; color: #fff; border: 1px solid #a6a6a6; text-decoration: none; }
+.as-badge span { display: flex; flex-direction: column; line-height: 1.05; text-align: left; }
+.as-badge small { font-size: 12px; font-weight: 400; }
+.as-badge b { font: 600 24px/1.1 "Rubik", system-ui, sans-serif; letter-spacing: -.01em; }
 .gp-badge.is-missing {
 width: 186px; height: 72px;
 border: 2px dashed currentColor; color: inherit;
@@ -495,7 +500,7 @@ html { scroll-behavior: auto; }
   "@context": "https://schema.org",
   "@type": "MobileApplication",
   "name": "QQFIT",
-  "operatingSystem": "ANDROID",
+  "operatingSystem": "ANDROID, IOS",
   "applicationCategory": "HealthApplication",
   "inLanguage": "ru",
   "url": "https://qqfit.ru/",
@@ -532,10 +537,14 @@ html { scroll-behavior: auto; }
   <section class="hero dark" id="top">
     <div class="container hero__inner">
       <div class="hero__text">
-        <p class="overline">Дневник тренировок для Android</p>
+        <p class="overline">Дневник тренировок для Android и iPhone</p>
         <h1>Ранг каждой мышцы — на карте тела</h1>
         <p class="hero__lead">Записывай тренировки, а карта тела подсветит, что прокачано, а что отстаёт. Зал, дом или турник — без аккаунта и рекламы.</p>
         <div class="cta-row">
+          <a class="as-badge" href="https://apps.apple.com/app/apple-store/id6836315563?pt=129822320&amp;ct=site&amp;mt=8" rel="noopener">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="30" height="30"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
+            <span><small>Загрузите в</small><b>App Store</b></span>
+          </a>
           <a class="gp-badge gp-badge--lg" href="https://play.google.com/store/apps/details?id=com.qqfit.app">
             <img src="assets/google-play-badge.webp" width="646" height="250" alt="Скачать из Google Play">
           </a>
@@ -544,7 +553,7 @@ html { scroll-behavior: auto; }
             Новости в Telegram
           </a>
         </div>
-        <p class="hero__note">Бесплатно · 16+ · Android 7.0 и новее</p>
+        <p class="hero__note">Бесплатно · 16+ · Android 7.0+ и iOS 15+</p>
       </div>
 
       <div class="hero__visual">
@@ -877,7 +886,7 @@ html { scroll-behavior: auto; }
         </details>
         <details data-reveal>
           <summary>Где хранятся мои данные?</summary>
-          <p>Только на твоём телефоне. Наружу они уходят, только если ты сам сохранишь копию, поделишься картинкой или напишешь нам. Подробнее — в <a href="https://letsdoingyt-cpu.github.io/qqfit-legal/privacy.html">Политике конфиденциальности</a>.</p>
+          <p>Только на твоём телефоне. Наружу они уходят, только если ты сам сохранишь копию, поделишься картинкой или напишешь нам. Подробнее — в <a href="https://qqfit.ru/legal/privacy.html">Политике конфиденциальности</a>.</p>
         </details>
         <details data-reveal>
           <summary>Как перенести прогресс на новый телефон?</summary>
@@ -885,7 +894,7 @@ html { scroll-behavior: auto; }
         </details>
         <details data-reveal>
           <summary>Есть версия для iPhone?</summary>
-          <p>Пока только Android. Новости — в нашем <a href="https://t.me/qqfitapp">Telegram-канале</a>.</p>
+          <p>Да, QQFIT есть в App Store — для iPhone с iOS 15 и новее. Новости — в нашем <a href="https://t.me/qqfitapp">Telegram-канале</a>.</p>
         </details>
         <details data-reveal>
           <summary>Подойдёт новичку?</summary>
@@ -908,7 +917,11 @@ html { scroll-behavior: auto; }
     <div class="container final__inner">
       <h2 id="final-title" class="section-title" data-reveal>Начни с первой тренировки</h2>
       <div class="cta-row cta-row--center" data-reveal>
-        <a class="gp-badge gp-badge--lg" href="https://play.google.com/store/apps/details?id=com.qqfit.app">
+        <a class="as-badge" href="https://apps.apple.com/app/apple-store/id6836315563?pt=129822320&amp;ct=site&amp;mt=8" rel="noopener">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="30" height="30"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
+            <span><small>Загрузите в</small><b>App Store</b></span>
+          </a>
+          <a class="gp-badge gp-badge--lg" href="https://play.google.com/store/apps/details?id=com.qqfit.app">
           <img src="assets/google-play-badge.webp" width="646" height="250" loading="lazy" alt="Скачать из Google Play">
         </a>
         <a class="tg-link" href="https://t.me/qqfitapp">
@@ -927,10 +940,10 @@ html { scroll-behavior: auto; }
       <span class="age" aria-label="Возрастное ограничение 16+">16+</span>
     </div>
     <nav class="footer__docs" aria-label="Документы">
-      <a href="https://letsdoingyt-cpu.github.io/qqfit-legal/terms.html">Пользовательское соглашение</a>
-      <a href="https://letsdoingyt-cpu.github.io/qqfit-legal/privacy.html">Политика конфиденциальности</a>
-      <a href="https://letsdoingyt-cpu.github.io/qqfit-legal/disclaimer.html">Правила безопасного использования</a>
-      <a href="https://letsdoingyt-cpu.github.io/qqfit-legal/recommendations.html">Правила рекомендательных технологий</a>
+      <a href="https://qqfit.ru/legal/terms.html">Пользовательское соглашение</a>
+      <a href="https://qqfit.ru/legal/privacy.html">Политика конфиденциальности</a>
+      <a href="https://qqfit.ru/legal/disclaimer.html">Правила безопасного использования</a>
+      <a href="https://qqfit.ru/legal/recommendations.html">Правила рекомендательных технологий</a>
     </nav>
     <div class="footer__contacts">
       <a href="mailto:qqfit@mail.ru">qqfit@mail.ru</a>
